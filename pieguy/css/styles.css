@@ -9,6 +9,9 @@ body {
   height: 90px;
   /* margin: 10px 15px 10px 0; */
 }
+#logo1 img {
+  margin-bottom: 8px;
+}
 
 #header-nav {
   padding-bottom: 0px;
