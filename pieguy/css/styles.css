@@ -1,0 +1,304 @@
+body {
+  background: url('../images/concrete.png') repeat;
+  background-color: #c33345;
+}
+
+#logo-img {
+  background: url('../images/pieguyzlogonew.png') no-repeat;
+  width: 310px;
+  height: 90px;
+  /* margin: 10px 15px 10px 0; */
+}
+
+#header-nav {
+  padding-bottom: 0px;
+  /* height: 200px; */
+}
+/* #header-nav .container{
+  padding-left: 0px;
+  padding-right: 0px;
+} */
+#logo1 {
+  margin-right: 0px;
+}
+
+#navbarSupportedContent {
+  /* height: 50px; */
+}
+#nav-list a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* padding-top: 18px;
+  padding-bottom: 18px; */
+}
+#nav-list .navlink span{
+  vertical-align: middle;
+}
+
+.nav-item {
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+#nav-list .nav-item:hover, #nav-list .nav-item:active {
+  background-color: darkred;
+  opacity: .8;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+#nav-list .nav-item .nav-link:hover, #nav-list .nav-item .nav-link:active {
+  color: white;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+#nav-list .active {
+  background-color: darkred;
+  opacity: .8;
+}
+
+
+.pattern {
+  /* background: url('../images/concrete.png') repeat;
+  background-color: #c33345; */
+}
+
+#header-nav button.navbar-toggler {
+  clear: both;
+  /* margin-top: -30px; */
+}
+
+
+#main-content .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  padding: 0px;
+  /* background: url('../images/5D4B3738-Deep-Dish-Apple-Pie.jpg'); */
+  /* height: 675px; */
+}
+
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  /* overflow: hidden; */
+}
+.category-tile:hover, .category-tile:active, #map-tile:hover, #map-tile:active {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.lamb-tile {
+  background: url('../images/featue1-lamb.jpg') no-repeat;
+  background-position: center;
+  display: block;
+}
+.chicken-tile {
+  background: url('../images/feature2-chicken.jpg') no-repeat;
+  background-position: center;
+}
+.vegetarian-tile {
+  background: url('../images/feature3-vegetarian.jpg') no-repeat;
+  background-position: center;
+}
+.steak-tile {
+  background: url('../images/feature4-steak.jpg') no-repeat;
+  background-position: center;
+}
+#menu-tile {
+  /* background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center; */
+}
+#specials-tile {
+  /* background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center; */
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#menu-tile img {
+  /* border: 2px solid #3F0C1F; */
+  /* padding-left: 40px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* padding-left: auto; */
+  /* padding-right: 0px;
+  padding-left: 40px; */
+}
+#menu-tile {
+}
+
+#call-btn a:hover, #call-btn a:active {
+  box-shadow: 0 1px 5px 1px #cccccc;
+  color: white;
+}
+#call-btn > a {
+  font-size: 1.5em;
+  display: block;
+  /* margin: 0 20px; */
+  margin: 10px 15px 0px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+.logo1-svg {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: url("../package/build/svg/bell.svg") no-repeat;
+  /* background-position: center; */
+  background-position: bottom;
+  /* margin: 10px 15px 0px;
+  padding: 10px; */
+}
+#xs-deliver {
+  margin-top: 5px;
+  font-size: .7em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* FOOTER */
+.card-footer {
+  color: white;
+  margin-top: 30px;
+  /* margin-bottom: 0px; */
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #222;
+  border-top: 0;
+}
+.card-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 1.5;
+}
+#hours > span, #address > span {
+  font-size: 1.1em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+.card-footer div.row hr {
+  color: white;
+  background-color: white;
+}
+/* END FOOTER */
+
+
+/********** Extra large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Medium devices only **********//********** 768px below is mobile **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-list a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+/* ********* Small devices only **********/ /*Samsung Galaxy S9+ Viewport is 360 x 740px, Apple iPhone XS Max 414 x 896px, Samsung Galaxy Note9 414 x 846px */
+@media (min-width: 576px) and (max-width: 767px) {
+  #nav-list a {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    /* margin: 0 20px; */
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 506px;
+    /* align-content: center; */
+    /* margin: 10px 15px 0px; */
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #home-tiles .category-tile, #home-tiles #map-tile {
+    height: 240px;
+  }
+  /* Footer */
+  .card-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .card-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .card-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 575px) {
+  #nav-list a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #main-content .jumbotron {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* Footer */
+  .card-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .card-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .card-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+  #menu-tile {
+    /* padding-right: 0px; */
+    /* width: 280px; */
+    /* margin-left: auto; */
+    /* margin-right: 0px; */
+    /* margin: 0 auto 15px; */
+  }
+  /* #logo-img {
+    background: url('../images/pieguyzlogonew.png') no-repeat;
+    max-width: 310px;
+    height: auto;
+
+  } */
+}
+/* mx-auto justify-content-sm-between justify-content-center
+flex-xl-row flex-lg-column flex-md-column
+ */
+/*  flex-xl-row flex-lg-column flex-md-column */
