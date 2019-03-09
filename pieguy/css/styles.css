@@ -2,6 +2,15 @@ body {
   background: url('../images/concrete.png') repeat;
   background-color: #c33345;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 
 #logo-img {
   background: url('../images/pieguyzlogonew.png') no-repeat;
@@ -80,33 +89,82 @@ body {
 
 
 #menu-tile, #specials-tile, #map-tile {
-  height: 300px;
-  width: 100%;
+  /* height: 10em; */
+  /* width: 100%; */
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
   /* overflow: hidden; */
+  /* padding: 10px; */
 }
 .category-tile:hover, .category-tile:active, #map-tile:hover, #map-tile:active {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  /* box-shadow: 0 1px 5px 1px #cccccc; */
 }
-.lamb-tile {
+
+.category-tile img {
+  /* max-width:100%;
+  height:auto; */
+  width: 200px;
+  height: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.category-tile {
+  text-align: center;
+}
+.category-tile p {
+  text-align: left;
+  padding: 1em;
+}
+
+
+/* .lamb-tile {
   background: url('../images/featue1-lamb.jpg') no-repeat;
   background-position: center;
   display: block;
+  background-clip: content-box;
 }
 .chicken-tile {
   background: url('../images/feature2-chicken.jpg') no-repeat;
   background-position: center;
+  background-clip: padding-box;
 }
 .vegetarian-tile {
   background: url('../images/feature3-vegetarian.jpg') no-repeat;
   background-position: center;
+  background-clip: content-box;
 }
 .steak-tile {
   background: url('../images/feature4-steak.jpg') no-repeat;
   background-position: center;
+  background-clip: content-box;
 }
+.tile-1 {
+  background: url('../images/2/5D4B3738-Deep-Dish-Apple-Pie.jpg') no-repeat;
+  background-position: center;
+  background-clip: content-box;
+}
+.tile-2 {
+  background: url('../images/2/salmonella-infection-dogs.jpg') no-repeat;
+  background-position: center;
+  background-clip: content-box;
+}
+.tile-3 {
+  background: url('../images/2/500g_hemp_seeds_360x.jpg') no-repeat;
+  background-position: center;
+  background-clip: content-box;
+}
+.tile-4 {
+  background: url('../images/2/51cc84hBwRL.jpg') no-repeat;
+  background-position: center;
+  background-clip: content-box;
+} */
+
+#home-tiles .mchange {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 #menu-tile {
   /* background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center; */
@@ -137,6 +195,15 @@ body {
   padding-left: 40px; */
 }
 #menu-tile {
+}
+.yesman {
+  text-decoration: none;
+  /* font-size: 2em; */
+  color: black;
+}
+#main-content #menu-tile .yesman:hover, #menu-tile .yesman:active, #menu-tile .yesman:focus  {
+  text-decoration: none;
+  color: black;
 }
 
 #call-btn a:hover, #call-btn a:active {
